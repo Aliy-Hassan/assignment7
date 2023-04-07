@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program 2</title>
+</head>
+<body>
+    <h2>2nd Program</h2>
+    <h3>Refresh the browser to find the maximum number between three numbers</h3>
+
+    <script>
+        var num1 = prompt("Enter the 1st number")
+        var num2 = prompt("Enter the 2nd number")
+        var num3 = prompt("Enter the 3nd number")
+
+        if(num1==num2 && num2==num3){
+            var res = "All the numbers are equal!"
+        }else 
+        if(num1>num2 && num1> num3){
+            var res = num1 + " is the greatest";
+        }else
+        if(num2>num1 && num2> num3){
+            var res = num2 + " is the greatest";
+        }else{
+            var res = num3 + " is the greatest";
+        }
+
+        alert(res);
+    </script>
+</body>
+</html>
